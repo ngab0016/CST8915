@@ -48,7 +48,7 @@ To ensure the durability of messages and queue definitions, persistent storage w
 | **ConfigMap** | The existing ConfigMap was maintained and mounted at `/etc/rabbitmq`. | Correctly separates dynamic persistent data from static configuration files. |
 
 ## Updated yaml file for Lab8:
-`
+```
 # ------------------------------------------------------
 # Headless Service for MongoDB StatefulSet (Replica Set)
 # ------------------------------------------------------
@@ -655,4 +655,4 @@ spec:
       targetPort: 5001
   selector:
     app: ai-service
-    `
+    ```
